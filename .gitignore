@@ -1,2 +1,3 @@
-./build
+# Ignore the build directory from cmake
+/build/
 
