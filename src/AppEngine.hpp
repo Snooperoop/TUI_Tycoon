@@ -2,6 +2,7 @@
 #include <ncurses.h>
 #include <vector>
 #include <memory>
+#include "GameEngine.hpp"
 
 namespace AppEngine {
 

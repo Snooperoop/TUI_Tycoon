@@ -10,6 +10,7 @@ find_package(Curses REQUIRED)
 add_executable(app
     src/main.cpp
     src/AppEngine.cpp
+    src/GameEngine.cpp
 )
 
 target_include_directories(app PRIVATE ${CURSES_INCLUDE_DIRS})

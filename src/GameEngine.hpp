@@ -47,6 +47,7 @@ namespace GameEngine {
 		virtual void UpdateScreen() override;
 		virtual std::shared_ptr<GameState> clone() override;
 	};
+
 	struct PauseState : GameState {
 		//CONSTRUTORS
 		PauseState();
@@ -59,6 +60,7 @@ namespace GameEngine {
 		virtual void UpdateScreen() override;	
 		virtual std::shared_ptr<GameState> clone() override;
 	};
+
 	struct PlayState : GameState { 
 		//CONSTRUTORS
 		PlayState();
